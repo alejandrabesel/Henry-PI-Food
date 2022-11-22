@@ -1,0 +1,35 @@
+.mainContainer {
+    background-image: url("../../images/CreateRecipe/05-Q70E98Wzd-transformed.jpeg"); 
+    padding-top: 0.5%;
+    padding-bottom: 10%;
+}
+
+.buttonHome{
+    margin: 2%;
+    margin-right: 50%;
+    font-size:x-large;
+    border-radius: 10px;
+    background-color: #c3ca9ead;
+}
+
+.recipeContainer {
+    margin: auto;
+    width: 50rem;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffffffaa;
+    font-family: Arial;
+    line-height : 25px;
+}
+
+.summary {
+    padding: 2%;
+
+}
+
+.diets, .dishTypes{
+    text-transform: capitalize;
+
+}
+

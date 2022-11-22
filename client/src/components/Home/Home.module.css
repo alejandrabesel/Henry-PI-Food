@@ -1,0 +1,63 @@
+.home {
+    background-image: url("../../images/LandingPage/background_landingPage_8.jpg"); 
+    background-size: 100% auto;
+    height: 100vh;
+    padding-bottom: 100%;
+} 
+
+.createButton {
+    margin-right: 10px;
+    font-size:x-large;
+    border-radius: 2px;
+    background-color: #e8e6cec8;
+    margin-top: 1%;
+}
+
+.createButton:hover{
+    transition-duration: 1s;
+    background-color:#cfc754c4;   
+}
+
+.getAllButton {
+    font-size:x-large;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: #e8e6cec8;
+    margin-top: 1%;
+}
+
+.getAllButton:hover{
+    transition-duration: 1s;
+    background-color:#e8da12c4;   
+}
+
+
+.filter1, .filter2, .filter3{
+    font-size: large;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+
+.recipes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.loader {
+    background-color: aqua;
+    font-size: xx-large;
+    font-weight: bolder;
+    /* padding: 100%;
+    width: 100%;
+    height: 100%;
+    background: transparent url('../../images/loading_gif_4.gif') bottom no-repeat; */
+
+}
+
+.noRecipeFound{
+    background-color: blue;
+}
